@@ -1,0 +1,10 @@
+#+TITLE: guile-basexx
+
+This Guile library is intended for working with base16-, base32-, and base64-encoded information.
+
+They are taken *directly* from [[https://git.savannah.gnu.org/cgit/guix.git/tree/guix][upstream Guix's]] files of the same name.
+
+The author wanted access to the base16/32/64-encoding tools from Guix for personal projects, but did not want to make the project explicitly depend on Guix to compile, so the relevant files were factored out to their own library.
+
+After discussion on IRC, Guix will *not* use this library for building Guix itself.
+Guix will continue to maintain these libraries internally and will not update this library.
